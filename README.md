@@ -3,7 +3,7 @@ Docker image for using the guacenc utility
 
 
 ## Usage 
-docker run -v /path/to/recording/folder:/recordings -d --name guacenc litios/guacenc
+docker run -v /path/to/recording/folder:/recordings -d -it --name guacenc litios/guacenc
 
 docker exec -it guacenc guacenc -f /recordings/my-file
 
